@@ -13,7 +13,7 @@ int main()
 	
 	cout<<"Ingrese una opcion: ";
 	cin>>opt;
-	if (opt<0 && opt<4)
+	if (opt<0 || opt<4)
 	{
 		cout<<"Numero invalido, ingrese un numero valido: ";
 	}
